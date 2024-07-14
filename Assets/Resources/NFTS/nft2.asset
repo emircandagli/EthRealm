@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: nft2
+  m_EditorClassIdentifier: Assembly-CSharp::ethRealmBase
+  sprite: {fileID: 21300000, guid: d24af97b2ee7ba84ab9cb3bf2fc9de2b, type: 3}
+  raritytype: 2
+  Name: nft2
+  MaxHP: 100
+  Attack: 17
+  Defense: 30

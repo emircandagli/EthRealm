@@ -1,0 +1,1449 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\Emir\Desktop\game\2022.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Emir/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49673
+Successfully changed project path to: C:/Users/Emir/My project
+C:/Users/Emir/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8460] Host "[IP] 10.102.0.235 [Port] 0 [Flags] 2 [Guid] 832290231 [EditorId] 832290231 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C977P79) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8460] Host "[IP] 10.102.0.235 [Port] 0 [Flags] 2 [Guid] 832290231 [EditorId] 832290231 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C977P79) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 153.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.37f1 (340ba89e4c23)
+[Subsystems] Discovering subsystems at path C:/Users/Emir/Desktop/game/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Emir/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Users/Emir/Desktop/game/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Emir/Desktop/game/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/Emir/Desktop/game/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Emir/Desktop/game/2022.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/Emir/Desktop/game/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015734 seconds.
+- Loaded All Assemblies, in  0.922 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 1214ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (183ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (528ms)
+			TypeCache.Refresh (527ms)
+				TypeCache.ScanAssembly (514ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 8.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (245.8 KB). Loaded Objects now: 4500.
+Memory consumption went from 142.2 MB to 142.0 MB.
+Total: 3.672900 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.109300 ms MarkObjects: 2.961900 ms  DeleteObjects: 0.238200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15475.101816 seconds.
+  path: Assets/background 1/CityMap_1085.asset
+  artifactKey: Guid(08f1f162a8ba7db419113b94d237c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1085.asset using Guid(08f1f162a8ba7db419113b94d237c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bf0216b5c22802b863978ed2713c0a7') in 0.096035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.254259 seconds.
+  path: Assets/background 1/CityMap_1066.asset
+  artifactKey: Guid(538b747f141a1fd46bef202565fc399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1066.asset using Guid(538b747f141a1fd46bef202565fc399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34b11809a1e5cbc67946874ed9536276') in 0.023387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.076043 seconds.
+  path: Assets/background 1/CityMap_972.asset
+  artifactKey: Guid(168d9a68adf162e48be4af6f3f113b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_972.asset using Guid(168d9a68adf162e48be4af6f3f113b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c9d7d6b45644780cb8f782928828b83a') in 0.021153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.573573 seconds.
+  path: Assets/background 1/CityMap_953.asset
+  artifactKey: Guid(8f7f5f45f28ef5c46becf86b3e367ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_953.asset using Guid(8f7f5f45f28ef5c46becf86b3e367ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0afb9d06d7b5190559ee020a99b64f23') in 0.021476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/background 1/CityMap_915.asset
+  artifactKey: Guid(509b2f448d9cb9447ba13a3aa20423b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_915.asset using Guid(509b2f448d9cb9447ba13a3aa20423b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d4539ef91c72c1069209b90d8e6d6f0') in 0.022171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_899.asset
+  artifactKey: Guid(509cf2a16aa92e348967515721ff3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_899.asset using Guid(509cf2a16aa92e348967515721ff3d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '775a13fe4c5e142e8f9110509576d3a7') in 0.022801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/background 1/CityMap_877.asset
+  artifactKey: Guid(413fd43a54a87fb46bf480989652fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_877.asset using Guid(413fd43a54a87fb46bf480989652fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2fb59e260f63ddf7623f1cb2a4644b66') in 0.023790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/background 1/CityMap_935.asset
+  artifactKey: Guid(400e39fd65bf14e44ac55e35dd57da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_935.asset using Guid(400e39fd65bf14e44ac55e35dd57da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0007fc3aeb819de2334b96014708b71') in 0.034441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.428405 seconds.
+  path: Assets/background 1/CityMap_858.asset
+  artifactKey: Guid(21c0fafd8418bc44f87ad19b28260f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_858.asset using Guid(21c0fafd8418bc44f87ad19b28260f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1aadc62bccdedfebfa9222d36b602ecb') in 0.026769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.129019 seconds.
+  path: Assets/background 1/CityMap_839.asset
+  artifactKey: Guid(347b4fba64243da4fb64b5bb64cd1882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_839.asset using Guid(347b4fba64243da4fb64b5bb64cd1882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3654d4b57b2a97f84e2f3f5a4bcf521f') in 0.021270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.194333 seconds.
+  path: Assets/background 1/CityMap_820.asset
+  artifactKey: Guid(23fabaf92c5a1644bbc978ccbfd857b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_820.asset using Guid(23fabaf92c5a1644bbc978ccbfd857b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c8d2e8bda19bb02fa987029d70e95dd') in 0.024037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.952229 seconds.
+  path: Assets/background 1/CityMap_819.asset
+  artifactKey: Guid(cfb52c54fb3537946b03c9ffd522eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_819.asset using Guid(cfb52c54fb3537946b03c9ffd522eddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d291e98e697aed195d97f0873081830') in 0.021580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035227 seconds.
+  path: Assets/background 1/CityMap_817.asset
+  artifactKey: Guid(640873438784f5a44b31e4026a9092b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_817.asset using Guid(640873438784f5a44b31e4026a9092b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e95adb8ba6de9c7bbc209a286e4bc31') in 0.020487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007133 seconds.
+  path: Assets/background 1/CityMap_816.asset
+  artifactKey: Guid(69bea5dc41654534ab427acf7f931f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_816.asset using Guid(69bea5dc41654534ab427acf7f931f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff0173e4d212c64a8e91c2d7d7289e28') in 0.021371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.311763 seconds.
+  path: Assets/background 1/CityMap_815.asset
+  artifactKey: Guid(84bf6684a1795f44eabf9c3ad26ce856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_815.asset using Guid(84bf6684a1795f44eabf9c3ad26ce856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '06a89ea680b51c5d76f55b57fa0feee7') in 0.019581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.095044 seconds.
+  path: Assets/background 1/CityMap_813.asset
+  artifactKey: Guid(b2424f5c0d93a8a4b9dbcffee2b07a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_813.asset using Guid(b2424f5c0d93a8a4b9dbcffee2b07a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d95a610b770fed3667bcc51589ab947') in 0.019206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.383134 seconds.
+  path: Assets/background 1/CityMap_824.asset
+  artifactKey: Guid(c062a39047db88c4f9eb93b0e008969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_824.asset using Guid(c062a39047db88c4f9eb93b0e008969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '622d17cee39f78245dcbf3095229e9fe') in 0.025232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.170444 seconds.
+  path: Assets/background 1/CityMap_826.asset
+  artifactKey: Guid(491ec86f2971bb74bbde9cf72a443a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_826.asset using Guid(491ec86f2971bb74bbde9cf72a443a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a28cb94c0cf5675605bd404e5633301b') in 0.018763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007503 seconds.
+  path: Assets/background 1/CityMap_827.asset
+  artifactKey: Guid(c623692289efd8243986de27f7f1c638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_827.asset using Guid(c623692289efd8243986de27f7f1c638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '308d100049002d75d24112cca937b48c') in 0.019459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/background 1/CityMap_830.asset
+  artifactKey: Guid(f34c3a4c60f7b9548a8360a03b1e3327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_830.asset using Guid(f34c3a4c60f7b9548a8360a03b1e3327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '397a1bee7fe9a7e8443e6e164bac8e26') in 0.022380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010237 seconds.
+  path: Assets/background 1/CityMap_832.asset
+  artifactKey: Guid(fe03aab686c206645842e6de7f9b200b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_832.asset using Guid(fe03aab686c206645842e6de7f9b200b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f10cdd8de39c93cd238a99930a5b5651') in 0.019288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.657953 seconds.
+  path: Assets/background 1/CityMap_849.asset
+  artifactKey: Guid(c237b72c3306bfa44a5c661d33cffe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_849.asset using Guid(c237b72c3306bfa44a5c661d33cffe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08c83b412918ed1fff3481654a4e3e76') in 0.022051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/background 1/CityMap_1114.asset
+  artifactKey: Guid(6c8aa6ff9d0cd794fbe7d22d38507fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1114.asset using Guid(6c8aa6ff9d0cd794fbe7d22d38507fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aaab60fc143833904c2871213e94198a') in 0.023285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/background 1/CityMap_963.asset
+  artifactKey: Guid(209855fe877ffa444b7a3aaf1658afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_963.asset using Guid(209855fe877ffa444b7a3aaf1658afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '626137c1388f6c133c32b4dc3b88ed3b') in 0.024564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/background 1/CityMap_1513.asset
+  artifactKey: Guid(fac06b30ea501b641a6f3aa5f4bcd7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1513.asset using Guid(fac06b30ea501b641a6f3aa5f4bcd7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '172c6ead9c9ce20126627769e8717b0a') in 0.022791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/background 1/CityMap_1836.asset
+  artifactKey: Guid(9cd351751eab7f1418d909a4e58ffebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1836.asset using Guid(9cd351751eab7f1418d909a4e58ffebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35acc9a79f79da012b0e71b79247050e') in 0.024131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/background 1/CityMap_2158.asset
+  artifactKey: Guid(67a092822b9e1ad4d93c9200759d1e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2158.asset using Guid(67a092822b9e1ad4d93c9200759d1e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a0a045c2d8429d7a677a285b061ed63') in 0.024662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_2425.asset
+  artifactKey: Guid(371db2a2169fd1b4aa529dbecf62a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2425.asset using Guid(371db2a2169fd1b4aa529dbecf62a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6cb4065f35dd2941c9d114326f77b8a1') in 0.021017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/background 1/CityMap_1514.asset
+  artifactKey: Guid(8db9f023540097b4bbe467726c07c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1514.asset using Guid(8db9f023540097b4bbe467726c07c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8229f7cf3fd9e63e25d7aae54e3d4708') in 0.022575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/background 1/CityMap_2728.asset
+  artifactKey: Guid(56ad343c953edbc47af0c10e3f472592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2728.asset using Guid(56ad343c953edbc47af0c10e3f472592) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '600f2a6a7cd22cf5e46fa52abd7b7c5b') in 0.022776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_2768.asset
+  artifactKey: Guid(9749c105d58b0c34c85c6d05419dd353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2768.asset using Guid(9749c105d58b0c34c85c6d05419dd353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47d99beae7a18fa766a776224e86eab8') in 0.023882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/background 1/CityMap_966.asset
+  artifactKey: Guid(2959f93d5fa331945b74dccc6d02c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_966.asset using Guid(2959f93d5fa331945b74dccc6d02c2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1f14b1dff8ff1c200c8a5e103474f79') in 0.021908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/background 1/CityMap_2636.asset
+  artifactKey: Guid(fb4a207bc5c706042aeea668b260ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2636.asset using Guid(fb4a207bc5c706042aeea668b260ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8b4d84f62e5425435fdfb86d0992c5c') in 0.022244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004447 seconds.
+  path: Assets/background 1/CityMap_2804.asset
+  artifactKey: Guid(f4cee1e9aff35c04f835429efa57e2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2804.asset using Guid(f4cee1e9aff35c04f835429efa57e2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af454dcbe43f370a028605e92bad2887') in 0.022004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/background 1/CityMap_2918.asset
+  artifactKey: Guid(ba62925dccb4d13458b36e13c3c0aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2918.asset using Guid(ba62925dccb4d13458b36e13c3c0aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07383b6505e81b1ada0e48e3eb1356f3') in 0.023975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/background 1/CityMap_3014.asset
+  artifactKey: Guid(7a501d95a321aac4180d0ed17eaad889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3014.asset using Guid(7a501d95a321aac4180d0ed17eaad889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8fe0ae86acc397d3356220d99f568406') in 0.022248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/background 1/CityMap_3032.asset
+  artifactKey: Guid(f598d97c255c82e49b11fa1e5b5b4ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3032.asset using Guid(f598d97c255c82e49b11fa1e5b5b4ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4809997c7c922c3c3ccf68e92fe9f2f1') in 0.022931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.203475 seconds.
+  path: Assets/background 1/CityMap_3051.asset
+  artifactKey: Guid(381345856bdceb44aa3adb4f0c620f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3051.asset using Guid(381345856bdceb44aa3adb4f0c620f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e975b4d5f610eea2abf209e641e6c5a') in 0.022897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/background 1/CityMap_3145.asset
+  artifactKey: Guid(8ff6c7e404ef25e4ea0ed558d2b73f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3145.asset using Guid(8ff6c7e404ef25e4ea0ed558d2b73f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34199324cf758d4c404d61353f769e1a') in 0.025058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_3111.asset
+  artifactKey: Guid(647b7ca3611b58642abd82a7bb066220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3111.asset using Guid(647b7ca3611b58642abd82a7bb066220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6530ccddf4fc974f8df98818e1ca99af') in 0.022639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/background 1/deneme.prefab
+  artifactKey: Guid(cf6a16ebb2bb24a45952a735d88d1ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/deneme.prefab using Guid(cf6a16ebb2bb24a45952a735d88d1ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7eeccaee80cb00eb58287efd780a33f') in 18.274566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6161
+========================================================================
+Received Import Request.
+  Time since last request: 77.419009 seconds.
+  path: Assets/background 1/CityMap_3143.asset
+  artifactKey: Guid(aedfdd885d91b71469934bcddf607c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3143.asset using Guid(aedfdd885d91b71469934bcddf607c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f360c67033b7751380617581267300a') in 0.015526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.782873 seconds.
+  path: Assets/background 1/CityMap_3139.asset
+  artifactKey: Guid(33552298b6b838a49bf9c70305359d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3139.asset using Guid(33552298b6b838a49bf9c70305359d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '968748bf3b8294233f360d5e523f2507') in 0.015694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/background 1/CityMap_3142.asset
+  artifactKey: Guid(c88d03da1b4fc224098048dafa099877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3142.asset using Guid(c88d03da1b4fc224098048dafa099877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f4940d078e2668df00f3a9230becfcb') in 0.019301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.262291 seconds.
+  path: Assets/background 1/CityMap_3135.asset
+  artifactKey: Guid(e28b482fcaa7e0f499b5f19c28b8ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3135.asset using Guid(e28b482fcaa7e0f499b5f19c28b8ed3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16344ce21922b1578f4e8e7c21a363cc') in 0.015289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/background 1/CityMap_3137.asset
+  artifactKey: Guid(6d28d487428ff224a9edcf3497849815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3137.asset using Guid(6d28d487428ff224a9edcf3497849815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '714a81544d74edd38a53852e0e4fccd7') in 0.013764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005314 seconds.
+  path: Assets/background 1/CityMap_3131.asset
+  artifactKey: Guid(96c2901d8bf7f6c45b2139a353ddf25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3131.asset using Guid(96c2901d8bf7f6c45b2139a353ddf25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ffdc4d698803b3a248c3fc93d3f96225') in 0.018322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/background 1/CityMap_3133.asset
+  artifactKey: Guid(37410e2158bee104b9a4a4c9f8914ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3133.asset using Guid(37410e2158bee104b9a4a4c9f8914ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c32e69c4326eaf2cf48d8f0aea6a1bb') in 0.017292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013903 seconds.
+  path: Assets/background 1/CityMap_3130.asset
+  artifactKey: Guid(acc31ce2e1f23b249b11199320b18386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3130.asset using Guid(acc31ce2e1f23b249b11199320b18386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b72b6962f5f2258b19539c432674f18') in 0.015863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.147418 seconds.
+  path: Assets/background 1/CityMap_3123.asset
+  artifactKey: Guid(bcf8d9de47eeb704bb9e0c65ae01c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3123.asset using Guid(bcf8d9de47eeb704bb9e0c65ae01c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a19509d075323866ac4ef1b9d519d748') in 0.016140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.374934 seconds.
+  path: Assets/background 1/CityMap_3119.asset
+  artifactKey: Guid(1e7113600f0249840bfbbe125ebaaa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3119.asset using Guid(1e7113600f0249840bfbbe125ebaaa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce58fa08ac91d3131ff45d1228a8fd8b') in 0.012556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/background 1/CityMap_3122.asset
+  artifactKey: Guid(d6b6f69f123f1f84aa8c007fe1e80740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3122.asset using Guid(d6b6f69f123f1f84aa8c007fe1e80740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bf1e894d0676db258772780098b7885') in 0.013501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/background 1/CityMap_3118.asset
+  artifactKey: Guid(aa03ce062689ef24481a0a1c75ba7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3118.asset using Guid(aa03ce062689ef24481a0a1c75ba7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '833195f721f5a76702be8a46ba9a7ff7') in 0.015925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/background 1/CityMap_3121.asset
+  artifactKey: Guid(704c27ad58646ce469c9afab9107d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3121.asset using Guid(704c27ad58646ce469c9afab9107d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'feb806480248992cf9cedd3ec0bca630') in 0.016408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031002 seconds.
+  path: Assets/background 1/CityMap_3112.asset
+  artifactKey: Guid(afc0958ab5b9ca544b2c99fc31a83bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3112.asset using Guid(afc0958ab5b9ca544b2c99fc31a83bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b00a7fc7081459b6980f9e215a751b2') in 0.015296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/background 1/CityMap_3114.asset
+  artifactKey: Guid(735cbbcd6b0b2324e88c64c7e3475948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3114.asset using Guid(735cbbcd6b0b2324e88c64c7e3475948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d706951490a880f6dee2a6cdfb07a4e') in 0.014078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013266 seconds.
+  path: Assets/background 1/CityMap_3107.asset
+  artifactKey: Guid(62db340e222262a45a01b5cf2faf4809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3107.asset using Guid(62db340e222262a45a01b5cf2faf4809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '45f7457ae8ec6307603bfbc3106a1b91') in 0.013562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.287856 seconds.
+  path: Assets/background 1/CityMap_3103.asset
+  artifactKey: Guid(9aeda3f419875864183ab0eb25bd6d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3103.asset using Guid(9aeda3f419875864183ab0eb25bd6d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0319544c2ea3a442a7b538f9bd511b63') in 0.015636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/background 1/CityMap_3105.asset
+  artifactKey: Guid(3b034eab57259f44db7eab0a968f1952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3105.asset using Guid(3b034eab57259f44db7eab0a968f1952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '666666ab5dcb14b56a68da311c570da8') in 0.015555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014105 seconds.
+  path: Assets/background 1/CityMap_3099.asset
+  artifactKey: Guid(8f84b9ef067a4c4409525fdf1fadd690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3099.asset using Guid(8f84b9ef067a4c4409525fdf1fadd690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77ef035377b74eb72f747c1be3571883') in 0.014035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/background 1/CityMap_3101.asset
+  artifactKey: Guid(911057d350014a640b997a0ce23f8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3101.asset using Guid(911057d350014a640b997a0ce23f8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '379fb26477be17140a35f8c4070fb725') in 0.015496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/background 1/CityMap_3097.asset
+  artifactKey: Guid(34890adf37bfe1b449a7304299f38d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3097.asset using Guid(34890adf37bfe1b449a7304299f38d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '125bd84aaed9a2be61a257c83db2c9a8') in 0.014341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_3096.asset
+  artifactKey: Guid(0e00deddd3f5a314e9f4a7f79f56af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3096.asset using Guid(0e00deddd3f5a314e9f4a7f79f56af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5154a323ca9166cc147d56e4d1e97b9') in 0.017588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.279337 seconds.
+  path: Assets/background 1/CityMap_3091.asset
+  artifactKey: Guid(6f0639824b3d63442b4109ddc4b9b925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3091.asset using Guid(6f0639824b3d63442b4109ddc4b9b925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d505809b4424e140870a9c731aaa6f3') in 0.012103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/background 1/CityMap_3093.asset
+  artifactKey: Guid(911119326f23eea4d88825a9834cf484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3093.asset using Guid(911119326f23eea4d88825a9834cf484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '465a50969c85485d37fa4a47338802b6') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015196 seconds.
+  path: Assets/background 1/CityMap_3087.asset
+  artifactKey: Guid(ee7100bea41fd884299b8b90e122a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3087.asset using Guid(ee7100bea41fd884299b8b90e122a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e6ae9b62676abb53976c344a9304928') in 0.013679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/background 1/CityMap_3090.asset
+  artifactKey: Guid(153e7e616c0b44e46b63008081edfda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3090.asset using Guid(153e7e616c0b44e46b63008081edfda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4cbb774a4435c82d81777ac5219b529f') in 0.014675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016870 seconds.
+  path: Assets/background 1/CityMap_3083.asset
+  artifactKey: Guid(eb71495ab7d3f3345815cd9a459cf81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3083.asset using Guid(eb71495ab7d3f3345815cd9a459cf81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4ab06b1ce66dc5f505aa4cd64013ea6') in 0.014419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/background 1/CityMap_3085.asset
+  artifactKey: Guid(2a90fddeda1fbee41b5675aeed601336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3085.asset using Guid(2a90fddeda1fbee41b5675aeed601336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29abed88542096bd65c4cdd5bb08b6f5') in 0.015620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.080321 seconds.
+  path: Assets/background 1/CityMap_3075.asset
+  artifactKey: Guid(0756667ef7ca40d439d6ed38201d5a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3075.asset using Guid(0756667ef7ca40d439d6ed38201d5a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b132310b0bde827eeb28d7257439e37') in 0.014991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_3078.asset
+  artifactKey: Guid(fe073a9ffa3a46843860d445b0596c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3078.asset using Guid(fe073a9ffa3a46843860d445b0596c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb0c05d4c5641ea19791e7e51e7d9e90') in 0.016249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.263562 seconds.
+  path: Assets/background 1/CityMap_3074.asset
+  artifactKey: Guid(6ae42f5ddbf3ce64fa02119c56779d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3074.asset using Guid(6ae42f5ddbf3ce64fa02119c56779d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e38f6ad267076bb42837d01ca8e6700') in 0.015051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.034469 seconds.
+  path: Assets/background 1/CityMap_3067.asset
+  artifactKey: Guid(0b2dfc9c1c7ebd74f91c197f6e2ac777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3067.asset using Guid(0b2dfc9c1c7ebd74f91c197f6e2ac777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ddf95ec54990234801f9adf60414723b') in 0.013757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007404 seconds.
+  path: Assets/background 1/CityMap_3069.asset
+  artifactKey: Guid(19d484bf8d5e8454c8fec4249c62e2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3069.asset using Guid(19d484bf8d5e8454c8fec4249c62e2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82e441c97a7f5619112572a15e96f3a9') in 0.013704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037788 seconds.
+  path: Assets/background 1/CityMap_3064.asset
+  artifactKey: Guid(c2219357e20eadf42a718031a91eb27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3064.asset using Guid(c2219357e20eadf42a718031a91eb27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a37d4d70432165eba367430b1db33d7') in 0.014772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.024539 seconds.
+  path: Assets/background 1/CityMap_3059.asset
+  artifactKey: Guid(374dafad31c0dab45a9a599dfc87deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3059.asset using Guid(374dafad31c0dab45a9a599dfc87deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9347802caa1331c6534279a9fb3b63f2') in 0.012988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024697 seconds.
+  path: Assets/background 1/CityMap_3055.asset
+  artifactKey: Guid(3649ac49df3dc0744bb4ced2bb92d8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3055.asset using Guid(3649ac49df3dc0744bb4ced2bb92d8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c82979bd78836e44eb5748a7d0151017') in 0.014617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/background 1/CityMap_3058.asset
+  artifactKey: Guid(08c4f5e5abd43da409a25b03eee303de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3058.asset using Guid(08c4f5e5abd43da409a25b03eee303de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac9ef9c388c5e7b9219d2ed0859812a3') in 0.014804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013329 seconds.
+  path: Assets/background 1/CityMap_3047.asset
+  artifactKey: Guid(68bfd6d63590ad5458077cf66d76c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3047.asset using Guid(68bfd6d63590ad5458077cf66d76c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cad0ed73fbeb8b5ce9dde8d16e2af5cf') in 0.013853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/background 1/CityMap_3050.asset
+  artifactKey: Guid(b678b11b6ed18224985541d794af41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3050.asset using Guid(b678b11b6ed18224985541d794af41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '981fdf465206a283672d996f58b5c702') in 0.014544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017959 seconds.
+  path: Assets/background 1/CityMap_3045.asset
+  artifactKey: Guid(f2057b02013548f4b91bcef6faa4b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3045.asset using Guid(f2057b02013548f4b91bcef6faa4b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1794243add418f552487695a79683e6f') in 0.014240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.256991 seconds.
+  path: Assets/background 1/CityMap_3039.asset
+  artifactKey: Guid(0e58222e78a697c40b0dece16014e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3039.asset using Guid(0e58222e78a697c40b0dece16014e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfa684e35649e0fec38ca3477ff399b2') in 0.013850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/background 1/CityMap_3036.asset
+  artifactKey: Guid(612f5e199d6185540a210f928f189968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3036.asset using Guid(612f5e199d6185540a210f928f189968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7696808413c0ec56387869335e0fb569') in 0.014033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/background 1/CityMap_3038.asset
+  artifactKey: Guid(99385ec703ea5fb41a9cd7a18e4d98d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3038.asset using Guid(99385ec703ea5fb41a9cd7a18e4d98d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f54aef5513bad2c377b23f01bf926938') in 0.013579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024456 seconds.
+  path: Assets/background 1/CityMap_3031.asset
+  artifactKey: Guid(175a5bc88f788df4e89872065146970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3031.asset using Guid(175a5bc88f788df4e89872065146970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d8e0f118fb1274d21cdc1e46e92ca93') in 0.015137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/background 1/CityMap_3027.asset
+  artifactKey: Guid(431c1a441e026d4419e161fe8e4a8f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3027.asset using Guid(431c1a441e026d4419e161fe8e4a8f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5216c38669e7c464ffef0a920531724d') in 0.014295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/background 1/CityMap_3029.asset
+  artifactKey: Guid(c618a45e6b1d000449b9055a0eecc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3029.asset using Guid(c618a45e6b1d000449b9055a0eecc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e919443d8ea43d46ec71b92bcbbd800') in 0.015742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.266655 seconds.
+  path: Assets/background 1/CityMap_3026.asset
+  artifactKey: Guid(ab96eeed1ead97247995751cd8c8bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3026.asset using Guid(ab96eeed1ead97247995751cd8c8bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34eeafbc4dcf7bb4fa6fd6858ea5b770') in 0.014505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024550 seconds.
+  path: Assets/background 1/CityMap_3019.asset
+  artifactKey: Guid(f2fa2593e04dc3546a709b7a42981d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3019.asset using Guid(f2fa2593e04dc3546a709b7a42981d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5201d200f745f14df9c37a3f79b03ebc') in 0.014349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/background 1/CityMap_3018.asset
+  artifactKey: Guid(860dff430c3107346b3f83427483ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3018.asset using Guid(860dff430c3107346b3f83427483ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4e87183c7dd248b375b122d860b26923') in 0.016540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/background 1/CityMap_3021.asset
+  artifactKey: Guid(41e16e8eec33e9e4dafd497cfff8f44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3021.asset using Guid(41e16e8eec33e9e4dafd497cfff8f44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '76c9ce03614e0bfb74df122097f428db') in 0.015452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020650 seconds.
+  path: Assets/background 1/CityMap_3011.asset
+  artifactKey: Guid(e83594c7ed3ff2940ac44e9a026414af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3011.asset using Guid(e83594c7ed3ff2940ac44e9a026414af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '41665e1086ab1ffa9f959d3bd8943dbf') in 0.015384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011487 seconds.
+  path: Assets/background 1/CityMap_3007.asset
+  artifactKey: Guid(18a1a4318ba7358458b31b076e3fc3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3007.asset using Guid(18a1a4318ba7358458b31b076e3fc3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2a504e39ed2a588e3854952f47c8322') in 0.016286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/background 1/CityMap_3009.asset
+  artifactKey: Guid(52949630da0054243996a9254daf040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3009.asset using Guid(52949630da0054243996a9254daf040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74922a2936f0bb69118b22c0c4ad3902') in 0.016271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.310090 seconds.
+  path: Assets/background 1/CityMap_3000.asset
+  artifactKey: Guid(d14b2b3ac7c3c424ebe4ee706a65ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3000.asset using Guid(d14b2b3ac7c3c424ebe4ee706a65ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34bac070f3e46e9a477c8bc693a92f3b') in 0.014913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/background 1/CityMap_3002.asset
+  artifactKey: Guid(9ddfe2ccc2f76534d8763c59e527cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_3002.asset using Guid(9ddfe2ccc2f76534d8763c59e527cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd1a9f7161d17301f580b3970e4888054') in 0.016937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.026769 seconds.
+  path: Assets/background 1/CityMap_2995.asset
+  artifactKey: Guid(0f84fc5d7b953da49b05e6eb57df03e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2995.asset using Guid(0f84fc5d7b953da49b05e6eb57df03e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8a127a7a20e712c91ebcfc4bf1f6321') in 0.016598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/background 1/CityMap_2994.asset
+  artifactKey: Guid(e9af2f5cd08143f419cac8584b966137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2994.asset using Guid(e9af2f5cd08143f419cac8584b966137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '830e8e07452e63c0535b9ba1ccb4c271') in 0.015903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/background 1/CityMap_2998.asset
+  artifactKey: Guid(2efc075d90cb43442afc9c3416392392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2998.asset using Guid(2efc075d90cb43442afc9c3416392392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de1530b4731c95942aee920b4171c513') in 0.017070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.340754 seconds.
+  path: Assets/background 1/CityMap_2989.asset
+  artifactKey: Guid(398112d2ee070924394b831629af6e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2989.asset using Guid(398112d2ee070924394b831629af6e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '253b411045decb2fd746b8788a43fedc') in 0.014501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035705 seconds.
+  path: Assets/background 1/CityMap_2979.asset
+  artifactKey: Guid(fcf0f2a040087414b907ec0450e7687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2979.asset using Guid(fcf0f2a040087414b907ec0450e7687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ec2476a9fbd3d36211ee757bd5b21cd') in 0.018309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.061325 seconds.
+  path: Assets/background 1/CityMap_2976.asset
+  artifactKey: Guid(81e06d2ad6c10384e8bdbebda9e00e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2976.asset using Guid(81e06d2ad6c10384e8bdbebda9e00e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab12198d3ba217265ede4565855c6ac2') in 0.014990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.084067 seconds.
+  path: Assets/background 1/CityMap_2972.asset
+  artifactKey: Guid(bab86a87e065abd4cbcc0386307d4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2972.asset using Guid(bab86a87e065abd4cbcc0386307d4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a0ccb555501bbbd29e8445d7227ec29c') in 0.016749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.254580 seconds.
+  path: Assets/background 1/CityMap_2970.asset
+  artifactKey: Guid(e9bbb7a307b90ee4791d563635146544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2970.asset using Guid(e9bbb7a307b90ee4791d563635146544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57169973ce536517e90515d386a611c5') in 0.016158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007688 seconds.
+  path: Assets/background 1/CityMap_2964.asset
+  artifactKey: Guid(ee1e2881351f10c4f846f1474cff8d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2964.asset using Guid(ee1e2881351f10c4f846f1474cff8d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99a9b3b4dc8cff1bafcfe9fcea27f7c3') in 0.013987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035096 seconds.
+  path: Assets/background 1/CityMap_2961.asset
+  artifactKey: Guid(c8b94179156b50646bfff5437350ec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2961.asset using Guid(c8b94179156b50646bfff5437350ec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ccdf5ab1686c422c2912e969e3cc923') in 0.014170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.308215 seconds.
+  path: Assets/background 1/CityMap_2952.asset
+  artifactKey: Guid(e6eaba151e03c8c42ad955f7d23b6895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2952.asset using Guid(e6eaba151e03c8c42ad955f7d23b6895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df96831cbb67c7d57c105a33a049650b') in 0.016121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.056132 seconds.
+  path: Assets/background 1/CityMap_2944.asset
+  artifactKey: Guid(9d83643403bf3c14a9989eb269fa5289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2944.asset using Guid(9d83643403bf3c14a9989eb269fa5289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1137713fa17b68ea66bbdc5cbd92a7c4') in 0.014484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.307192 seconds.
+  path: Assets/background 1/CityMap_2940.asset
+  artifactKey: Guid(ea1450846ef2e7140bdb005bf57115f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2940.asset using Guid(ea1450846ef2e7140bdb005bf57115f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd854cb4937fd75a185392074af205908') in 0.018003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005889 seconds.
+  path: Assets/background 1/CityMap_2936.asset
+  artifactKey: Guid(c431b06f86a5ce44994beb6b1a85705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2936.asset using Guid(c431b06f86a5ce44994beb6b1a85705e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9a15d8718f3d6b2dca4ec0375f4ba96') in 0.022881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020569 seconds.
+  path: Assets/background 1/CityMap_2932.asset
+  artifactKey: Guid(29e43d97281740f448e4b2408026bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2932.asset using Guid(29e43d97281740f448e4b2408026bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a0be12f1a14f9bb3d3e5deb94d4e458') in 0.014795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.300364 seconds.
+  path: Assets/background 1/CityMap_2924.asset
+  artifactKey: Guid(6e19b8bc649f19a41932ba6dc352f5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2924.asset using Guid(6e19b8bc649f19a41932ba6dc352f5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe82e4a02304440720d14b6cfccc4697') in 0.016315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/background 1/CityMap_2922.asset
+  artifactKey: Guid(95f6715c124ae614585a43d24ce4e8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2922.asset using Guid(95f6715c124ae614585a43d24ce4e8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d36af493195e27b8d53fe8b73537e2d') in 0.013619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024419 seconds.
+  path: Assets/background 1/CityMap_2916.asset
+  artifactKey: Guid(eeb7f030af1da5a4ab89d52192d211c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2916.asset using Guid(eeb7f030af1da5a4ab89d52192d211c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '795db8349816120e3ce1014f7cfc6858') in 0.015478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031421 seconds.
+  path: Assets/background 1/CityMap_2913.asset
+  artifactKey: Guid(cee9f1e3cc56dd2429099a8173164ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2913.asset using Guid(cee9f1e3cc56dd2429099a8173164ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8496a2a965deba892c22b905ca8ca98d') in 0.017417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.325581 seconds.
+  path: Assets/background 1/CityMap_2904.asset
+  artifactKey: Guid(8ae365b3b8fb00d4784e31da7f9731e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2904.asset using Guid(8ae365b3b8fb00d4784e31da7f9731e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '61e9732aafb9d89f04475275cfaaa43a') in 0.017339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023512 seconds.
+  path: Assets/background 1/CityMap_2900.asset
+  artifactKey: Guid(583f2c888a8031242a531273964485b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2900.asset using Guid(583f2c888a8031242a531273964485b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c89e3ceabc12743d88790fe1d531505d') in 0.015786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.161748 seconds.
+  path: Assets/background 1/CityMap_2896.asset
+  artifactKey: Guid(90ca1cbe8ab366f41887363680121e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2896.asset using Guid(90ca1cbe8ab366f41887363680121e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9072854c2e78a6e5d7a5f0935b05f349') in 0.025209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021092 seconds.
+  path: Assets/background 1/CityMap_2888.asset
+  artifactKey: Guid(b086bb6f54da924469b8f6b8810fe2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2888.asset using Guid(b086bb6f54da924469b8f6b8810fe2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '614b514be57619ae68c8d8ffef6eaceb') in 0.014762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.036928 seconds.
+  path: Assets/background 1/CityMap_2884.asset
+  artifactKey: Guid(9d8db4c04beadb64c9acda1f7cd603c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2884.asset using Guid(9d8db4c04beadb64c9acda1f7cd603c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bfad201d7479951c0ad10e8d4526fbb') in 0.018154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.700890 seconds.
+  path: Assets/background 1/CityMap_2880.asset
+  artifactKey: Guid(5292807f716050f4a97e8b35e8d65c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2880.asset using Guid(5292807f716050f4a97e8b35e8d65c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '800cef31957d9fea465833471d7e4084') in 0.015510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.049987 seconds.
+  path: Assets/background 1/CityMap_2876.asset
+  artifactKey: Guid(19ac599ba2e43eb4b8cc6937e0836511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2876.asset using Guid(19ac599ba2e43eb4b8cc6937e0836511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d602c23c39ea53782748276495c90c2') in 0.016954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.419593 seconds.
+  path: Assets/background 1/CityMap_2868.asset
+  artifactKey: Guid(c63d7a8ab0705fc459d0d1e792ffefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2868.asset using Guid(c63d7a8ab0705fc459d0d1e792ffefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55bb03e3efdc4255bb60d92f15ef7dae') in 0.015215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.822731 seconds.
+  path: Assets/background 1/CityMap_2864.asset
+  artifactKey: Guid(c8f3bf9849a7f2b4d8dcbc72d949ba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2864.asset using Guid(c8f3bf9849a7f2b4d8dcbc72d949ba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '815bcb9eb1fc4510c4293cc2672053db') in 0.022088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006730 seconds.
+  path: Assets/background 1/CityMap_2860.asset
+  artifactKey: Guid(788277b89a8928a4fbf1d306b4fb2c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2860.asset using Guid(788277b89a8928a4fbf1d306b4fb2c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8897af38f524a42e95de8b9bf1f6caa3') in 0.021851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/background 1/CityMap_2855.asset
+  artifactKey: Guid(55f22dcdf8a63cf41948cd4d3662460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2855.asset using Guid(55f22dcdf8a63cf41948cd4d3662460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d9a050e8cabd3515f950efe58142b2e') in 0.018869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.260626 seconds.
+  path: Assets/background 1/CityMap_2848.asset
+  artifactKey: Guid(ce77b1a4e229422408594ec3caa2d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2848.asset using Guid(ce77b1a4e229422408594ec3caa2d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc8c18bbe25c25ee8777b921435e6db7') in 0.016454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027073 seconds.
+  path: Assets/background 1/CityMap_2844.asset
+  artifactKey: Guid(a5b6abda2cae85a41aed462bac0961e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2844.asset using Guid(a5b6abda2cae85a41aed462bac0961e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74e5266a209f8f9e247f9acf9f321c20') in 0.020421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010857 seconds.
+  path: Assets/background 1/CityMap_2840.asset
+  artifactKey: Guid(5f4e8d275b419dd448a45c6d98a6604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2840.asset using Guid(5f4e8d275b419dd448a45c6d98a6604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bfe0c8657886f0d2e4cc4510a72639b5') in 0.017346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.314446 seconds.
+  path: Assets/background 1/CityMap_2837.asset
+  artifactKey: Guid(ce55db856d5cdc148b481a4f77b1a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2837.asset using Guid(ce55db856d5cdc148b481a4f77b1a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7885324225eab40bb8993ec30e9426b6') in 0.016428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027833 seconds.
+  path: Assets/background 1/CityMap_2828.asset
+  artifactKey: Guid(eaa74c9c966a3644bb79d0c87efcbf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2828.asset using Guid(eaa74c9c966a3644bb79d0c87efcbf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b991eee59b6cac338d2ac08bc08adf2') in 0.023317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048514 seconds.
+  path: Assets/background 1/CityMap_2824.asset
+  artifactKey: Guid(82b6e3dc9601af246898583ab4bd9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2824.asset using Guid(82b6e3dc9601af246898583ab4bd9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbb25975fa453aa7f6d5f2394e05e934') in 0.017227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.316647 seconds.
+  path: Assets/background 1/CityMap_2820.asset
+  artifactKey: Guid(34a8ee61470e1ed41ac771e0caa3a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2820.asset using Guid(34a8ee61470e1ed41ac771e0caa3a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9dd38a9e491a7294c02b79ea714e7640') in 0.019540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.036571 seconds.
+  path: Assets/background 1/CityMap_2818.asset
+  artifactKey: Guid(5d36d41eefd82ae4d9a090f1a4b20639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2818.asset using Guid(5d36d41eefd82ae4d9a090f1a4b20639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a69c38d33bcff5b129a3030984241787') in 0.014504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043745 seconds.
+  path: Assets/background 1/CityMap_2809.asset
+  artifactKey: Guid(15989b803cfea31479f99f08bcc8a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2809.asset using Guid(15989b803cfea31479f99f08bcc8a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a6b66c680ea460bc0c34f183fd4da27') in 0.016649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 55.871566 seconds.
+  path: Assets/background 1/CityMap_2122.asset
+  artifactKey: Guid(5f8cb64b24b6c15438e50d982406f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2122.asset using Guid(5f8cb64b24b6c15438e50d982406f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '918d29d8e0c599cb81a74b4b54634cdc') in 0.021576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/background 1/CityMap_2125.asset
+  artifactKey: Guid(2f12d46062c7577498a6fb0883de8a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_2125.asset using Guid(2f12d46062c7577498a6fb0883de8a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd60f4bd22e64e52da2e790e0b847aaec') in 0.016019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030229 seconds.
+  path: Assets/background 1/CityMap_1440.asset
+  artifactKey: Guid(9c42c1af4f145c442a5ae094f21164dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1440.asset using Guid(9c42c1af4f145c442a5ae094f21164dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a844f478eabe76a8157020d497f3ff90') in 0.015659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/background 1/CityMap_1444.asset
+  artifactKey: Guid(8a1533cda81911446b0b3793a52d754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_1444.asset using Guid(8a1533cda81911446b0b3793a52d754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '323e15a42b59776e53544d8d0b43fcac') in 0.015336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.336066 seconds.
+  path: Assets/background 1/CityMap_683.asset
+  artifactKey: Guid(0de9a920194b717418dcd9b39fbb8cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background 1/CityMap_683.asset using Guid(0de9a920194b717418dcd9b39fbb8cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5c6db7a964b9e39b271c1907a9352db') in 0.015774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
